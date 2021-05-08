@@ -3,19 +3,19 @@
     fixedInViewport="true" fixedTopGap="64">
     
         <mat-nav-list class="nav0-list">
-            <a mat-list-item>
+            <a mat-list-item routerLink="">
                 <i class="material-icons">
                     home
                 </i>
                 Home
             </a>
-            <a mat-list-item>
+            <a mat-list-item >
                 <i class="material-icons">
                     group
                 </i>
                 Sobre Nós
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="servicos">
                 <i class="material-icons">
                     storefront
                 </i>
@@ -27,25 +27,25 @@
                 </i>
                 Profissionais
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="agendamento">
                 <i class="material-icons">
                     today
                 </i>
                 Agendamento
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="produtos">
                 <i class="material-icons">
                     category
                 </i>
                 Produtos
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="contato">
                 <i class="material-icons">
                     call
                 </i>
                 Contato
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="login">
                 <i class="material-icons">
                     face
                 </i>
@@ -53,7 +53,9 @@
             </a>
         </mat-nav-list>
     </mat-sidenav>
-<mat-sidenav-content></mat-sidenav-content>
+<mat-sidenav-content class="content">
+   <router-outlet></router-outlet>
+</mat-sidenav-content>
 </mat-sidenav-container>
     
 

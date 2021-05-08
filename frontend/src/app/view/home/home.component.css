@@ -1,0 +1,22 @@
+.container2 {
+    box-sizing: content-box;
+    text-align:center;
+    background-color: rgb(219, 219, 219);
+    color: black;
+}
+.container3{
+    display: flex;
+    box-sizing: content-box;
+    color: black;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.container4{
+    background-color:grey;
+    border-style: double;
+}
+.container5{
+    background-color: gray;
+    border-style: double;
+}
