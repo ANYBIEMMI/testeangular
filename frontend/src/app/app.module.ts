@@ -9,14 +9,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/template/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
-import { NavComponent } from './components/template/nav/nav.component';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule} from '@angular/material/list';
 import { MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './view/home/home.component';
-import { ProdutosComponent } from './view/produtos/produtos.component';
+
 import { AgendamentoComponent } from './view/agendamento/agendamento.component';
-import { ServicosComponent } from './view/servicos/servicos.component';
+
 import { ContatoComponent } from './view/contato/contato.component';
 import { LoginComponent } from './view/login/login.component';
 
@@ -27,13 +26,13 @@ import { LoginComponent } from './view/login/login.component';
     
     HeaderComponent,
          FooterComponent,
-         NavComponent,
          HomeComponent,
-         ProdutosComponent,
+
          AgendamentoComponent,
-         ServicosComponent,
+         
          ContatoComponent,
          LoginComponent,
+        
         
 
          
@@ -46,7 +45,10 @@ import { LoginComponent } from './view/login/login.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+  
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

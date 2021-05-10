@@ -1,7 +1,14 @@
+.container1{
+    display: flex;
+    width: 100%;
+    
+}
+
+
 .container2 {
     box-sizing: content-box;
     text-align:center;
-    background-color: rgb(219, 219, 219);
+    background-color:rgba(70, 70, 70, 1);
     color: black;
 }
 .container3{

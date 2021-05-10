@@ -3,4 +3,6 @@
     bottom: 0;
     display: flex;
     justify-content: flex-end;
+    color:white;
+    background-color: rgb(107, 107, 107);
 }
